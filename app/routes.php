@@ -12,3 +12,8 @@ Route::get('/prueba', function()
 });
 
 Route::controller('personal','PersonalController');
+
+Route::get('/test', function()
+{
+	return View::make('ejemplo');
+});
